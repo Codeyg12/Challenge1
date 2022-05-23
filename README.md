@@ -23,3 +23,6 @@ The purpose of this is to clean up the code. It will either be deleting unnecess
     background-color: #d9dcd6;
 }"
 7. changed from ".header h1 .seo" to ".seo"
+8. Labeled all parts into sections
+9. Moved "a" and "p" into *generald*sfd
+10. rearranged so all parts flow smooth
