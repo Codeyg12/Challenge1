@@ -51,15 +51,6 @@ a {
   background-position: center;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
 
 /* Content */
 .content {
@@ -85,6 +76,16 @@ a {
 .content-head {
   margin-bottom: 20px;
   font-size: 36px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
 }
 
 /* Benefits */
