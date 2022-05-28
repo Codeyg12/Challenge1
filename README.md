@@ -8,8 +8,9 @@
 2. Changed 'span class=seo' into an "id"
 3. Image tags needed 'alt' attribute
 4. Under the 'div class=content' there were two "id=" that I deleted
-5. Deleted last 'img' tag from "Cost Managment"
+5. Deleted last 'img' tag from "Cost Management"
 6. Changed footers 'h2' into 'h4', 'h3' had already been used
+7. Added sections to the HTML
 
 ---
 
@@ -28,7 +29,7 @@
 5. Grouped all the 12 classes from the 'div class=content' into 6 classes
 6. Grouped the 10 classes from the 'div class=benefits' into 4 classes
 7. Changed "footer h2" to "h4" 
-8. Labeled the CSS into seperate parts of the page to make finding sections easier
+8. Labeled the CSS into separate parts of the page to make finding sections easier
 9. Moved "a" into the "General" section
 10. The font "Calibri" was white while the rest of the fonts were orange so I added quotation marks but when I looked it up found only the CSS generic font family name needs to not have quotes. The others are fair play.
 
