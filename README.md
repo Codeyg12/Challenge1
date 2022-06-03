@@ -7,7 +7,7 @@
 1. Changed 'title' from "website"
 2. Changed 'span class=seo' into an "id"
 3. Image tags needed 'alt' attribute
-4. Under the 'div class=content' there were two "id=" that I deleted
+4. Under the 'div class=content' added the last 'id' so the links can properly function 
 5. Deleted last 'img' tag from "Cost Management"
 6. Changed footers 'h2' into 'h4', 'h3' had already been used
 7. Added sections to the HTML
@@ -32,6 +32,7 @@
 8. Labeled the CSS into separate parts of the page to make finding sections easier
 9. Moved "a" into the "General" section
 10. The font "Calibri" was white while the rest of the fonts were orange so I added quotation marks but when I looked it up found only the CSS generic font family name needs to not have quotes. The others are fair play.
+11. Added a ':root' to group all changes in the future
 
 ### Link
 
