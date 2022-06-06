@@ -10,7 +10,7 @@
 4. Under the 'div class=content' added the last 'id' so the links can properly function 
 5. Deleted last 'img' tag from "Cost Management"
 6. Changed footers 'h2' into 'h4', 'h3' had already been used
-7. Added sections to the HTML
+7. Added sections and semantics to the HTML
 
 ---
 
