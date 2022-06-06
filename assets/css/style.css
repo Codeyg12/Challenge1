@@ -128,13 +128,13 @@ a {
 }
 
 /* Footer */
-.footer {
+.footer { /* Credits at the base of the page */
   padding: 30px;
   clear: both;
   font-family: var(--font);
   text-align: center;
 }
 
-h4 {
+h4 { /* copyright notice */
   font-size: 20px;
 }
