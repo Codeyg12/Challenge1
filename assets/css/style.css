@@ -1,0 +1,152 @@
+/* General */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Turned these into variables so 
+if a change is needed it will only need one 
+input and the groups stay together */
+:root {
+  --font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  --fontSecond: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  --white: #ffffff;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none; /* Eliminates the underline of links */
+}
+
+/* Header and intro */
+header {
+  padding: 20px;
+  font-family: var(--font);
+  background-color: #2a607c;
+  color: var(--white);
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+#seo {
+  /* SEO in "Horiseon" at the top, main head, is a different color */
+  color: #d9dcd6;
+}
+
+header nav {
+  /* Starts the handling of the navbar */
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: var(--fontSecond);
+  font-size: 20px;
+}
+
+header nav ul li {
+  /* This handles the clickable links in the navbar */
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.hero {
+  /* Main picture that divides the navbar from the readable content */
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Content */
+/* The entirety of sections the navbar will direct
+ you too, takes up the majority of the 
+ middle of the page on the left hand side */
+section {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.content-sect {
+  /* The 3 options from the navbar and the contents within */
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: var(--fontSecond);
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.content-head {
+  /* The title or heading of each section only text */
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.content-sect img {
+  /* The pictures in the 3 blocks also works with the 'float' classes */
+  max-height: 200px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* Benefits */
+aside {
+  /* The small vertical section in the middle of the page on the right hand side */
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: var(--fontSecond);
+  background-color: #2589bd;
+}
+
+.benefit-gen {
+  /* The color of the font as well as the spacing between the 3 sections */
+  margin-bottom: 32px;
+  color: var(--white);
+}
+
+.benefit-head {
+  /* The title or heading of the sections only text */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefit-img {
+  /* the icon in between the title and main text */
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* Footer */
+footer {
+  /* Credits at the base of the page */
+  padding: 30px;
+  clear: both;
+  font-family: var(--font);
+  text-align: center;
+}
+
+h4 {
+  /* copyright notice */
+  font-size: 20px;
+}
